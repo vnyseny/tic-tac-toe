@@ -17,7 +17,7 @@ for (let element of btns) {
     async = false;
     if (set[this.index] == undefined) {
       this.innerHTML = turn ? "X" : "O";
-      this.style.color = turn ? "orange" : "green";
+      this.style.color = turn ? "green" : "orange";
       set[this.index] = turn ? 1 : 0;
       turn = !turn;
       let win = checkWin(this.index);

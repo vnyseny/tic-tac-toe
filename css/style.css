@@ -1,5 +1,14 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
 .container {
-  background: gray;
   width: 300px;
   height: 300px;
   display: grid;
@@ -7,14 +16,7 @@
   grid-template-rows: 33% 33% 33%;
   grid-gap: 0.5%;
   padding: 0.5%;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  box-sizing: border-box;
+  background: gray;
 }
 
 .box {
