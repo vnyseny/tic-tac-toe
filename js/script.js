@@ -23,7 +23,7 @@ for (let element of btns) {
       let win = checkWin(this.index);
       if (win != -1) {
         setTimeout(() => {
-          alert(`Player ${win == 1 ? "X" : "O"} wins`);
+          alert(`Player ${win == 1 ? "Green" : "Orange"} wins`);
           location.reload();
         }, 1);
       }
