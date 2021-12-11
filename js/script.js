@@ -1,10 +1,7 @@
 let body = document.querySelector("body");
-body.style.background='red';
 let container = document.createElement("div");
 container.classList.add("container");
 body.appendChild(container);
-console.log(body);
-// container = document.querySelector('.container');
 for (let i = 0; i < 9; i++) {
   let node = document.createElement("div");
   node.classList.add("box");
