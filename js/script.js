@@ -23,11 +23,11 @@ for (let element of btns) {
       let win = checkWin(this.index);
       if (win != -1) {
         setTimeout(() => {
-          alert(`Player ${win == 1 ? "X" : "O"} wins`);
+          alert(`Player ${win == 1 ? "Green" : "Orange"} wins`);
           location.reload();
         }, 1);
       }
-      if (Object.keys(set).length == 9) {
+      if (Object.keys(set).length == 9 && win ==-1) {
         setTimeout(() => {
           alert(`No Player wins.`);
           location.reload();
