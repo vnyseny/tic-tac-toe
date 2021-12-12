@@ -1,4 +1,7 @@
 let body = document.querySelector("body");
+let title = document.createElement('h1');
+title.innerHTML= "Tic <span>Tac</span> Toe";
+body.appendChild(title);
 let container = document.createElement("div");
 container.classList.add("container");
 body.appendChild(container);

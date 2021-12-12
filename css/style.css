@@ -3,10 +3,12 @@ body {
   padding: 0%;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   box-sizing: border-box;
+  font-family: 'Pacifico', cursive;
+  min-width: 310px
 }
 .container {
   width: 300px;
@@ -26,3 +28,23 @@ body {
   text-align: center;
   font-weight: bold;
 }
+h1{
+  font-size: 5rem;
+  color: green;
+}
+h1 span{
+  color: orange;
+}
+
+
+@media screen and (max-width:485px) {
+  h1{
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width:425px) {
+  h1{
+    font-size: 3rem;
+  }
+}
+
