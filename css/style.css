@@ -27,15 +27,16 @@ body {
   font-size: 70px;
   text-align: center;
   font-weight: bold;
+  line-height: 1.4;
 }
 h1{
   font-size: 5rem;
   color: green;
+  line-height: 1;
 }
 h1 span{
   color: orange;
 }
-
 
 @media screen and (max-width:485px) {
   h1{
