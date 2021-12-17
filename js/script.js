@@ -17,7 +17,6 @@ let btns = document.getElementsByClassName("box");
 let set = {};
 for (let element of btns) {
   element.addEventListener("click", function (e) {
-    async = false;
     if (set[this.index] == undefined) {
       this.innerHTML = turn ? "X" : "O";
       this.style.color = turn ? "green" : "orange";
